@@ -19,3 +19,5 @@ gra.graph_gender(gl.load_genders(), './RESULTS/')
 cgra.graph_lokacije_pie(df, './RESULTS/')
 cgra.graph_time_distribution_skole(df, './RESULTS/')
 cgra.graph_time_distribution_general(df, './RESULTS/')
+
+print(len(df))

@@ -1,8 +1,8 @@
-file_path = './DATA/Prijave 23.10..xlsx'
+file_path = './DATA/Prijave 3.11..xlsx'
 sheet_name = 'Form Responses 1'
-column_dict = {'Timestamp':'VRIJEME', 'Ime i prezime': 'IME', 'Škola/fakultet': 'SKOLA', 'Razred':'RAZRED', 'Lokacija': 'LOKACIJA', 'Iz kojih područja primarno želiš davati instrukcije?': 'PREDMET', 'Lokacije koje ti odgovaraju (sve lokacije na koje možeš dolaziti)': 'TERMIN', 'Broj mobitela (za WhatsApp grupu)': 'BROJ'}
+column_dict = {'Timestamp':'VRIJEME', 'Ime i prezime': 'IME', 'Škola/fakultet': 'SKOLA', 'Razred':'RAZRED', 'Lokacije koje ti odgovaraju (sve lokacije na koje možeš dolaziti)': 'LOKACIJA', 'Iz kojih područja primarno želiš davati instrukcije?': 'PREDMET', 'Koji termin ti odgovara?': 'TERMIN', 'Broj mobitela (za WhatsApp grupu)': 'BROJ'}
 locations = ['Trešnjevka', 'Peščenica', 'Špansko']
-school_tuples = [('MIOC', 'mioc', 'xv'), ('PŠVP', 'pšvp', 'ps', 'vla'), ('KGZ', 'kla', 'kgz'), ('GTB', 'gtb', 'tit'), ('GLV', 'glv', 'luc')]
+school_tuples = [('MIOC', 'mioc', 'xv'), ('PŠVP', 'pšvp', 'ps', 'vla'), ('KGZ', 'kla', 'kgz'), ('GTB', 'gtb', 'tit'), ('GLV', 'glv', 'luc'), ('III.', 'iii', 'III', '3. gim')]
 subjects = ['matematika', 'jezici', 'prirodoslovni']
 availabilities = ['utorak', 'četvrtak', 'nijedno']
 
